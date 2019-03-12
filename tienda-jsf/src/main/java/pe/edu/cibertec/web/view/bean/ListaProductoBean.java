@@ -29,6 +29,7 @@ public class ListaProductoBean implements Serializable {
     @PostConstruct
     public void init() {
         listaProducto = productoServicio.obtenerTodos();
+        //para probar git add
     }
 
     public List<Producto> getListaProducto() {
